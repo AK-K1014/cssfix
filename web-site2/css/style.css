@@ -1,0 +1,165 @@
+/* ========================
+    body
+  ======================== */
+body {
+  font-family: 'Vollkorn',serif;
+  position: relative;
+}
+
+/* ========================
+    section - all
+  ======================== */
+section {
+  margin: 0 auto 100px;
+  border-bottom: 2px solid #31c5b9;
+}
+
+.section-title {
+  margin-bottom: 100px;
+
+  font-size: 50px;
+  text-align: center;
+}
+
+/* ========================
+    header
+  ======================== */
+header {
+position: relative;
+
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 30px;
+
+  font-weight: bold;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+.header-title {
+  font-size: 40px;
+}
+
+nav {
+  height: 40px;
+  font-size: 20px;
+  color: #000;
+}
+
+nav ul li {
+  margin-left: 80px;
+}
+
+nav a {
+  line-height: 40px;
+  color: #000;
+}
+
+nav a:hover {
+  color: #31c5b9;
+}
+  /* header - navigation */
+
+
+/* ========================
+    first-view
+  ======================== */
+  .first-view {
+    position: relative;
+    margin-bottom: 100px;
+  }
+  
+  .top-title {
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    width: 100%;
+  
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    text-shadow: 
+    #fff 1px 1px 2px,
+    #fff -1px 1px 2px,
+    #fff 1px -1px 2px,
+    #fff -1px -1px 2px;
+  }
+  
+  .top-img img {
+    width: 100%;
+    opacity: 0.9;
+  }
+
+/* ========================
+    section - 事業内容(service)
+  ======================== */
+.service-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto 100px;
+}
+
+.service-img {
+  width: 50%;
+  text-align: center;
+}
+
+.service-img > img {
+  height: 400px
+}
+
+.service-contents {
+  height: 400px;
+  width: 50%;
+  padding: 40px 0;
+
+  text-align: center;
+}
+
+.service-title {
+  padding-bottom: 40px;
+
+  font-size: 30px;
+  color: #31c5b9;
+}
+
+.service-text {
+  padding-bottom: 50px;
+  margin: 0 30px;
+
+  text-align: left;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.service-contents a {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px 0;
+  border: 1px solid #31c5b9;
+
+  font-size: 18px;
+  color: #31c5b9;
+  font-weight: bold;
+}
+
+.service-contents a:hover {
+  color: #fff;
+  background-color: #31c5b9;
+}
+/* ========================
+    section - 採用情報(employment)
+  ======================== */
+
+
+/* ========================
+    section - 会社概要(company-information)
+  ======================== */
+
+
+/* ========================
+    footer
+  ======================== */
